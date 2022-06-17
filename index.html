@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Certificate</title>
+    
+    <link rel="icon" href="./assets/logo-nhcm.f35c2d19.png">
+  <link rel="stylesheet" href="./assets/index.3990a638.css">
+</head>
+
+<body class="p-2 md:max-w-[800px] md:m-auto md:mt-[100px] md:bg-white">
+   <div class="bg-gradient-to-r from-sky-400 to-cyan-300 text-white p-5 rounded-lg">
+    <header class="px-5 ">
+        <img src="./assets/output-onlinepngtools.e9586808.png" alt="IT Club Logo" class="w-52 m-auto pt-3 pb-5">
+        <h1 class="text-3xl font-bold text-center">IT Club</h1>
+        <h3 class="text-xl font-mono mt-5">Admin page</h3>
+        <h4 class="mt-5">Get certificate of participants</h4>
+    </header>
+    <main class="mt-10 text-center px-5">
+
+
+        <label for="name">Type Participant Name</label> <br>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Enter Name" id="name" minlength="3"
+            maxlength="16" class="w-full border border-cyan-500 px-5 h-10 mt-3 rounded-md text-black"> <br>
+        <button type="button" id="submitBtn" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-5 ">Get Certificate</button>
+    </main>
+    <div class="mt-5">
+        <h3>@Beena "Head"</h3>
+        <h3>@Balaji GV "Sub Head"</h3>
+        <p class="text-center mt-5">&copy; Balaji GV 2022</p>
+    </div>
+   </div>
+    <p></p>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
